@@ -1,3 +1,18 @@
+/* @tailwind base; */
+/* @tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-style {
+        @apply px-2 py-1 rounded-md text-red-100 drop-shadow-2x shadow-inner cursor-pointer;
+    }
+} */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-style {
+        @apply px-2 py-1 rounded-md text-gray-100 cursor-pointer;
+    }
+}
